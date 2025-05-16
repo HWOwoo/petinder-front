@@ -1,0 +1,46 @@
+.card-div  {
+  background-color: #f8efedce;  /* 밝은 회색 */
+  border-radius: 12px;
+  padding: 16px;
+  width: 350px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+}
+
+.card-div-big {
+    background-color: #f8efedce;  /* 밝은 회색 */
+  border-radius: 12px;
+  padding: 16px;
+  width: 770px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+}
+
+
+.common-button {
+  padding: 8px 16px;
+  background-color: #fef2f2;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.common-button:hover {
+  background-color: #fcdcdc;
+}
+
+.card-title {
+      display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

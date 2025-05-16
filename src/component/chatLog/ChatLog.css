@@ -1,0 +1,55 @@
+.chat-log-page {
+  display: flex;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.chat-log-list {
+  width: 320px;
+  background-color: #f4f4f4;
+  border-right: 1px solid #ddd;
+  overflow-y: auto;
+}
+
+.chat-log-detail {
+  flex-grow: 1;
+  padding: 24px;
+  overflow-y: auto;
+}
+
+.chat-log-item {
+  padding: 16px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-log-item:hover {
+  background-color: #eaeaea;
+}
+
+.last-msg {
+  font-size: 14px;
+  color: #555;
+  margin: 4px 0 0 0;
+}
+
+.chat-time {
+  font-size: 12px;
+  color: #888;
+}
+
+.placeholder {
+  text-align: center;
+  color: #999;
+  margin-top: 100px;
+}
+
+.chat-detail-box {
+  margin-top: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  background-color: #fafafa;
+}

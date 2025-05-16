@@ -1,0 +1,17 @@
+.admin-index {
+  display: flex;
+}
+
+.admin-index-content {
+  width: 100%;
+  max-height: 100vh;
+  margin: 24px;
+  margin-left: 274px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 무조건 3개 */
+  gap: 24px;
+}
+
+.card-div-big {
+  grid-column: span 2;
+}
